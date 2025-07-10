@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard – University Connect</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>University Connect</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#" onclick="logoutUser()">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="join.html">Join</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="dashboard.html">Dashboard</a></li>
+  </ul>
+</nav>
+
+  <main>
+    <h2>Your Dashboard</h2>
+    <form id="postForm">
+      <textarea name="text" placeholder="What's on your mind?" required></textarea><br />
+      <input type="file" accept="image/*" name="image" /><br />
+      <button type="submit">Upload</button>
+    </form>
+
+    <div id="userPosts"></div>
+  </main>
+
+  <footer>
+    <p>AugustineK@KUST</p>
+  </footer>
+  <script src="assets/scripts/dashboard.js"></script>
+</body>
+</html>

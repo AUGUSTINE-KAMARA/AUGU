@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog – University Connect</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>University Connect</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="blog-posts">
+    <form id="postForm">
+      <input type="text" id="title" placeholder="Post Title" required />
+      <textarea id="content" placeholder="Post Content" required></textarea>
+      <button type="submit">Add Post</button>
+    </form>
+
+    <div id="blogPosts"></div>
+  </section>
+
+  <section id="blogControls">
+    <input type="text" id="searchInput" placeholder="Search by title or author..." />
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Tech">Tech</option>
+      <option value="Stories">Stories</option>
+      <option value="Innovation">Innovation</option>
+    </select>
+  </section>
+
+  <footer>
+    <pAugustineK@KUST</p>
+  </footer>
+
+<script src="blog.js"></script>
+
+</body>
+</html>
